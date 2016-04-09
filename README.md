@@ -5,7 +5,7 @@ Course Assignments (Network-Centric Computing - Java)
 Implemented a chat client system that would allow 2 clients to communicate messages across different computers. 
 The clients are multithreaded, therefore, they can send and receive simultaneously.
 
-**Usage:**  
+**Usage**
 ```
 > javac MultiThreadClient.java
 > java MultiThreadClient <host> <portNumber>
@@ -18,7 +18,7 @@ their information (port and IP address). A client can then connect to a client w
 server. The client is constantly pinging the server and in case the client does not ping the server for 15 seconds, 
 the server lists the client as offline.
 
-**Usage:**  
+**Usage**  
 Server
 ```
 > javac MultiServer.java
@@ -34,7 +34,7 @@ Client
 Implemented Chord, a peer-to-peer distributed hash table. Nodes (computers) can be dynamically added and removed. 
 Nodes can put() files into the DHT and correspondingly get() files from the DHT.
 
-**Usage:**  
+**Usage**
 ```
 > javac Node.java
 > java Node
